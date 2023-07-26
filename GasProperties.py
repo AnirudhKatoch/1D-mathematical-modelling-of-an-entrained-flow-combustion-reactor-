@@ -1,9 +1,5 @@
 # GasProperties
 
-# Note
-# Derived from the MATLAB class GasProperties written by  authors Netter, Tobias (tobias.netter@tum.de) ,
-# Ceruti, Amedeo (amedeo.ceruti@tum.de) within the project "Entrained Flow Gasification Reactor Modeling with MATLAB"
-
 # Class to get properties of a gas given temperature (K) and pressure (Pa) conditions.
 
 # Example:
