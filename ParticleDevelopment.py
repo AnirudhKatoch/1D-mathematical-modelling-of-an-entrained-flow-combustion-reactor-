@@ -1,9 +1,5 @@
 # ParticleDevelopment
 
-# Note
-# Derived from the MATLAB class ParticleDevelopment written by  authors Netter, Tobias (tobias.netter@tum.de) ,
-# Ceruti, Amedeo (amedeo.ceruti@tum.de) within the project "Entrained Flow Gasification Reactor Modeling with MATLAB"
-
 # Contains properties as arrays of doubles with size discretization x steps. These can be accessed and modified by the
 # main script in order to procede with the simulation of each particle with the information contained in this class.
 
@@ -124,11 +120,6 @@ class ParticleDevelopment:
         # universal gas constant
         R = 8.3145  # [J/(mol K)]
 
-
-        # Note
-        # LOOK - UP - TABLES namely Look_up_Diffusionkoefficient is missing
-        # Without that cannot runt the code, can ask the original authors for its matlab file
-
         # LOOK-UP-TABLES: Collision Integral & Lennard-Jones Parameters for Molecular Diffusion
         s = np.loadtxt('parameters/Look_up_Diffusionkoefficient')
 
@@ -166,11 +157,6 @@ class ParticleDevelopment:
         MW = np.array([M_CO2,M_H2O,M_O2])
         sigma = np.array([sigma_CO2,sigma_H2O,sigma_O2])
         omega = np.array([Omega_CO2,Omega_H2O,Omega_O2])
-
-        Note
-        # There is somthing wrong in the formula as MW is of size 3X1 whereas dpore size can vary depending on
-        # REACTORDISCRETIZATION and PARTICLEDISCRETIZATION, dpore and epislon are of the size REACTORDISCRETIZATION X PARTICLEDISCRETIZATION,
-        # hence dPore and MW cannot be multiplied in the formula for DK
 
         DM = 1.8583e-7 * T ** 1.5 * (1 / MW + 1 / M_N2) ** 0.5 / (p * sigma ** 2 * omega)
 
