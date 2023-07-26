@@ -1,8 +1,4 @@
 # GlobalParameters
-
-# Note
-# Derived from the MATLAB class GlobalParameters  written by  authors Netter, Tobias (tobias.netter@tum.de) ,
-# Ceruti, Amedeo (amedeo.ceruti@tum.de) within the project "Entrained Flow Gasification Reactor Modeling with MATLAB"
 #
 # Class containing global parameters needed for the entrained flow combustion Reactor.
 # This class stores diverse parameters and is input in everal functions to provide needed parameters to the model.
