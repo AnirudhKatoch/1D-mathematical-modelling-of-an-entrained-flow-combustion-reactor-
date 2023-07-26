@@ -1,9 +1,5 @@
 # ReactorMesh
 
-# Note
-# Derived from the MATLAB class ReactorMesh written by  authors Netter, Tobias (tobias.netter@tum.de) ,
-# Ceruti, Amedeo (amedeo.ceruti@tum.de) within the project "Entrained Flow Gasification Reactor Modeling with MATLAB"
-
 # Mesh class containing properties and methods to compute the main calculations of the simulation. It stores arrays of properties and variables which are updated and can be accessed.
 
 # Example
@@ -615,12 +611,6 @@ class ReactorMesh:
         H_R_CO2_298K = 172.22 * 10 ** 3  # J/mol
         H_R_H2O_298K = 131.25 * 10 ** 3  # J/mol
 
-
-        # Note
-        # This will not work as class get_values_look_up_ash_properties_fcn is not avalaible
-        # Original authors must be asked for the fucntion  get_values_look_up_ash_properties_fcn in matlab
-        # which can be modified in Python and then used here
-
         delta_h_molar_C = (get_values_look_up_ash_properties_fcn(1, Temperatur_Partikel_1, 1, obj.Params.Fuel1) * (Temperatur_Partikel_1 + 273.15) - get_values_look_up_ash_properties_fcn(1, 25, 1, obj.Params.Fuel1) * (25 + 273.15)) * M_C / 10 ** 3
         delta_h_molar_C_2 = (get_values_look_up_ash_properties_fcn(1, Temperatur_Partikel_2, 2, obj.Params.Fuel2) * (Temperatur_Partikel_2 + 273.15) - get_values_look_up_ash_properties_fcn(1, 25, 2, obj.Params.Fuel2) * ( 25 + 273.15)) * M_C / 10 ** 3
 
@@ -716,12 +706,6 @@ class ReactorMesh:
         mixture = MixtureProperties(comps, T_bezug, P, 'stream')
 
         rho_N2, eta_N2, _, c_p_N2, _ = mixture.computeallproperties()
-
-        # Note
-        # value of lambda_N2 cannot be found as class get_values_look_up_ash_properties_fcn is not avalaible
-        # Original authors must be asked for the fucntion  get_values_look_up_ash_properties_fcn in matlab
-        # which can be modified in Python and then used here
-        # thermalConductivity function need to be found , update to Python and then used here
 
         lambda_N2 = thermalConductivity(gas)  # bc
         Pr_N2 = eta_N2 * c_p_N2 / lambda_N2;
@@ -827,10 +811,6 @@ class ReactorMesh:
         epsillon_Partikel = 0.8  # Emissivity particles (Tremel)
         sigma_s = 5.67e-8  # W/(m^2 K^4) # Stefan-Boltzmann radiation constant
 
-        # Note
-        # value of lambda_N2 cannot be found as class get_values_look_up_ash_properties_fcn is not avalaible
-        # Original authors must be asked for the fucntion  get_values_look_up_ash_properties_fcn in matlab
-        # which can be modified in Python and then used here
 
         c_C_1 = get_values_look_up_ash_properties_fcn(1, Temperatur_Partikel_1, 1)
         c_C_2 = get_values_look_up_ash_properties_fcn(1, Temperatur_Partikel_2, 2)
@@ -1051,11 +1031,6 @@ class ReactorMesh:
 #
 # OUTPUT
 # None
-
-# Note
-# ['charConv', 'overallConv', 'annFuel2'] values are not shown in the csv file, they are calculated but are not printed in the
-# csv file. Maybe once they have values other than Nan, the values will start to show
-
 
     def writeToCsv(self, filepath):
         # Iterate over props
