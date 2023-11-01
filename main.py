@@ -1,11 +1,3 @@
-# Note
-# Derived from the MATLAB code main.m written by  authors Netter, Tobias (tobias.netter@tum.de) ,
-# Ceruti, Amedeo (amedeo.ceruti@tum.de) within the project "Entrained Flow Gasification Reactor Modeling with MATLAB"
-
-# This whole code needs to updated for a combustor
-# Some parts of this code can be utilized
-# Everthing is avalaile in other classes, just need to achieve a right flow based on theory
-
 import os
 import numpy as np
 import pandas as pd
