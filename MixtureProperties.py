@@ -1,5 +1,9 @@
 # MixtureProperties
 
+# Note
+# Inspired from the MATLAB class MixtureProperties written by  authors Netter, Tobias (tobias.netter@tum.de) ,
+# Ceruti, Amedeo (amedeo.ceruti@tum.de) within the project "Entrained Flow Gasification Reactor Modeling with MATLAB"
+
 # Class to get properties of a mixture given temperature (K) and pressure (Pa) conditions.
 
 # Example:
