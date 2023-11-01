@@ -1,11 +1,16 @@
 # ReactorMesh
 
+# Note
+# Derived from the MATLAB class ReactorMesh written by  authors Netter, Tobias (tobias.netter@tum.de) ,
+# Ceruti, Amedeo (amedeo.ceruti@tum.de) within the project "Entrained Flow Gasification Reactor Modeling with MATLAB"
+
 # Mesh class containing properties and methods to compute the main calculations of the simulation. It stores arrays of properties and variables which are updated and can be accessed.
 
 # Example
 # RM = ReactorMesh(Parameters, 2000, T); # construct reactor mesh object RM.X # X axis coordinate in each mesh step.
 
 # Contents
+
 # ReactorMesh
 # Properties
 # stored parameters
