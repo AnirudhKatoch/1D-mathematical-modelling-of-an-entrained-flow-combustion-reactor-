@@ -4,11 +4,11 @@ This project involved the creation of a Python-based mathematical model for entr
 
 FLow chart of the model
 
-<img align="center" alt="Coding" width="400" src="https://i.imgur.com/74dRhZC.png">
+<img align="center" alt="Coding" width="500" src="https://i.imgur.com/74dRhZC.png">
 
 Design of Entrained Flow Combustion Reactor
 
-<img align="center" alt="Coding" width="400" src="https://i.imgur.com/nxYcAyL.png">
+<img align="center" alt="Coding" width="300" src="https://i.imgur.com/nxYcAyL.png">
 
 
 Tasks
