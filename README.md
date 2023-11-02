@@ -2,13 +2,13 @@
 
 This project involved the creation of a Python-based mathematical model for entrained flow combustion. This model serves as a digital twin of the actual system, enabling significantly faster simulations. It has the capability to simulate the properties of 83 distinct fuel types across various operating conditions, offering a versatile and efficient tool for research and analysis in this field.
 
-FLow chart of the model- https://drive.google.com/file/d/1ZzINDuxjELkepz-B3d3XgW1K6srqNra2/view?usp=sharing
+FLow chart of the model
 
-<img align="center" alt="Coding" width="600" src="https://i.imgur.com/74dRhZC.png">
+<img align="center" alt="Coding" width="400" src="https://i.imgur.com/74dRhZC.png">
 
 Design of Entrained Flow Combustion Reactor
 
-<img align="center" alt="Coding" width="600" src="https://i.imgur.com/nxYcAyL.png">
+<img align="center" alt="Coding" width="400" src="https://i.imgur.com/nxYcAyL.png">
 
 
 Tasks
