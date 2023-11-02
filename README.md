@@ -27,6 +27,8 @@ Tasks carried out
 
 The `ReactorMesh.py` class is a vital part of a Python-based reactor simulation. It performs essential calculations by integrating data from other classes. This object-oriented class creates a one-dimensional mesh with user-defined steps. However, it faces challenges due to missing properties and dependencies, which need resolution for accurate simulation results. Clear documentation and comments within the code are essential for understanding its functionality.
 
+The existing Python code, 'main.py,' is structured to simulate a reactor model. It comprises classes for global parameters, particle development, reactor mesh, gas properties, and mixture properties. The code introduces functions to compute the swelling ratio and 'VM.' There are comments denoting potential issues. A significant overhaul is needed to accommodate new insights on ignition, combustion, and the transition from pyrolysis to combustion reactions within the reactor. The code serves as the foundation for this updated simulation, and it requires restructuring and rewriting to align with the latest understanding of the reactor's behavior.
+
 
 
 
