@@ -1,8 +1,8 @@
 # ParticleDevelopment
 
 # Note
-# Derived from the MATLAB class ParticleDevelopment written by  authors Netter, Tobias (tobias.netter@tum.de) ,
-# Ceruti, Amedeo (amedeo.ceruti@tum.de) within the project "Entrained Flow Gasification Reactor Modeling with MATLAB"
+# Derived from the MATLAB class ParticleDevelopment written by  authors Netter, Tobias  ,
+# Ceruti, Amedeo within the project "Entrained Flow Gasification Reactor Modeling with MATLAB"
 
 # Contains properties as arrays of doubles with size discretization x steps. These can be accessed and modified by the
 # main script in order to procede with the simulation of each particle with the information contained in this class.
