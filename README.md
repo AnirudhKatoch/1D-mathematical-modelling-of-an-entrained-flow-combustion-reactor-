@@ -1,13 +1,12 @@
 # 1D mathematical modelling of an entrained flow combustion reactor
 
+This project involved the creation of a Python-based mathematical model for entrained flow combustion. This model serves as a digital twin of the actual system, enabling significantly faster simulations. It has the capability to simulate the properties of 83 distinct fuel types across various operating conditions, offering a versatile and efficient tool for research and analysis in this field.
 
+FLow chart of the model- https://drive.google.com/file/d/1ZzINDuxjELkepz-B3d3XgW1K6srqNra2/view?usp=sharing
 
+Design of Entrained Flow Combustion Reactor - https://drive.google.com/file/d/1uueTrPYULyo2LauQlgLCQWBScAm2YsVI/view?usp=sharing
 
-
-
-FLow chart - https://drive.google.com/file/d/1ZzINDuxjELkepz-B3d3XgW1K6srqNra2/view?usp=sharing
-
-Tasks carried out
+Tasks
 
 * Gained expertise in object-oriented programming and mathematical modeling on Python and MATLAB.
 * Skillfully extracted and analyzed complex Excel data using Pandas, SciPy and NumPy in Python.
@@ -29,6 +28,8 @@ The `ReactorMesh.py` class is a vital part of a Python-based reactor simulation.
 
 The existing Python code, `main.py` is structured to simulate a reactor model. It comprises classes for global parameters, particle development, reactor mesh, gas properties, and mixture properties. The code introduces functions to compute the swelling ratio and 'VM.' There are comments denoting potential issues. A significant overhaul is needed to accommodate new insights on ignition, combustion, and the transition from pyrolysis to combustion reactions within the reactor. The code serves as the foundation for this updated simulation, and it requires restructuring and rewriting to align with the latest understanding of the reactor's behavior.
 
+## Note
 
+Significant challenges remain in the functionality of the model, necessitating further research and development to make progress.
 
 
