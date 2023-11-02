@@ -1,8 +1,8 @@
 # ReactorMesh
 
 # Note
-# Derived from the MATLAB class ReactorMesh written by  authors Netter, Tobias  ,
-# Ceruti, Amedeo  within the project "Entrained Flow Gasification Reactor Modeling with MATLAB"
+# Inspired from the MATLAB code written by  authors Netter, Tobias and 
+# Ceruti, Amedeo within the project "Entrained Flow Gasification Reactor Modeling with MATLAB"
 
 # Mesh class containing properties and methods to compute the main calculations of the simulation. It stores arrays of properties and variables which are updated and can be accessed.
 
