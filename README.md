@@ -8,7 +8,7 @@ FLow chart of the model
 
 Design of Entrained Flow Combustion Reactor
 
-<img align="center" alt="Coding" width="300" src="https://i.imgur.com/nxYcAyL.png">
+<img align="center" alt="Coding" width="350" src="https://i.imgur.com/nxYcAyL.png">
 
 
 Tasks
