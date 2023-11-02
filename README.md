@@ -4,7 +4,12 @@ This project involved the creation of a Python-based mathematical model for entr
 
 FLow chart of the model- https://drive.google.com/file/d/1ZzINDuxjELkepz-B3d3XgW1K6srqNra2/view?usp=sharing
 
-Design of Entrained Flow Combustion Reactor - https://drive.google.com/file/d/1uueTrPYULyo2LauQlgLCQWBScAm2YsVI/view?usp=sharing
+<img align="center" alt="Coding" width="600" src="https://i.imgur.com/74dRhZC.png">
+
+Design of Entrained Flow Combustion Reactor
+
+<img align="center" alt="Coding" width="600" src="https://i.imgur.com/nxYcAyL.png">
+
 
 Tasks
 
